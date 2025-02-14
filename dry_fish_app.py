@@ -125,7 +125,7 @@ if uploaded_file:
     
     for i, col in enumerate(cols):
         with col:
-            st.image(cv2.resize(grid_images[i], (400, 400)), use_column_width=False)
+            st.image(cv2.resize(grid_images[i], (400, 400)), use_container_width=False)
             st.markdown(f"<div style='text-align: center; font-size: 18px; font-weight: bold; color: black;'>{captions[i]}</div>", unsafe_allow_html=True)
 else:
     st.info("Please upload an image to proceed.")

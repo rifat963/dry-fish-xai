@@ -136,7 +136,7 @@ st.markdown(
     """
     <hr style='border: 1px solid black;'>
     <div style='text-align: center; font-size: 16px; color: black;'>
-        © 2025 Dry Fish Classification System | Developed by AI Research Team
+        © 2025 Dry Fish Classification System | Developed by Md Rifat Ahmmad Rashid, Associate Professor, EWU Bangladesh
     </div>
     """,
     unsafe_allow_html=True,

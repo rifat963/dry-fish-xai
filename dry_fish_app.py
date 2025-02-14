@@ -122,7 +122,13 @@ if uploaded_file:
 
     cols = st.columns(4, gap="medium")
     grid_images = [np.array(image), gradcam_result, gradcam_plus_plus_result, eigen_cam_result]
-    captions = ["**Original Image**", "**Grad-CAM**", "**Grad-CAM++**", "**Eigen-CAM**"]
+    #captions = ["**Original Image**", "**Grad-CAM**", "**Grad-CAM++**", "**Eigen-CAM**"]
+    captions = [
+    "**Original Image**",
+    "**Grad-CAM**: Highlights important regions by computing the gradient of the class score with respect to the feature maps.",
+    "**Grad-CAM++**: An improved version of Grad-CAM that provides better localization by weighting the gradients differently.",
+    "**Eigen-CAM**: Utilizes principal component analysis on the feature maps to identify significant regions without relying on gradients."
+]   
     
     for i, col in enumerate(cols):
         with col:

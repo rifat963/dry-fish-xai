@@ -50,7 +50,7 @@ transform = transforms.Compose([
 
 # Class labels
 class_names = [
-    "Corica soborna", "Jamuna ailia", "Clupeidae", "Shrimp", "Chepa",
+    "Corica soborna(কাচকি মাছ)", "Jamuna ailia(কাজরী মাছ)", "Clupeidae(চাপিলা মাছ)", "Shrimp(চিংড়ি মাছ)", "Chepa",
     "Chela", "Swamp barb", "Silond catfish", "Pale Carplet", "Bombay Duck", "Four-finger threadfin"
 ]
 
